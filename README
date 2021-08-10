@@ -1,0 +1,32 @@
+Compiled by mk with https://github.com/make-root/bethewumpus-compilation
+Tested on ubuntu 20.04
+
+HARDWARE REQUIREMENTS:
+
+Apart from a working stereo sound card,
+HEADPHONES ARE *HIGHLY* RECOMMENDED.
+
+You will also need a dual axis joystick, such as the 
+Logitech Dual Action 2 with Rumble.
+
+The rumble feature does not work, sorry to say.
+
+
+BUILDING:
+
+To build, just type "make".
+
+You will need libportaudio (http://www.portaudio.com/ -- version 19, not 18)
+and libvorbisfile (http://xiph.org) if you don't already have them on 
+your system.
+
+You will need gtk-2.0 libs as well.  GTK could
+probably be dispensed with, as it is used mainly
+for debugging, and for the timer loop, but it would
+take a little bit of hacking on the code to get it there.
+
+
+
+
+
+
